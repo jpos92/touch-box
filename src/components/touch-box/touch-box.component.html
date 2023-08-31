@@ -1,0 +1,9 @@
+<div
+  class="touch-box"
+  (touchstart)="onTouchStart($event)"
+  (touchmove)="onTouchMove($event)"
+  (touchend)="onTouchEnd()"
+  [style]="getBoxStyle()"
+>
+  Touch Box
+</div>
